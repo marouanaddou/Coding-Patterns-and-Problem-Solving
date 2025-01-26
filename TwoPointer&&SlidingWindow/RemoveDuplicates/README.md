@@ -1,3 +1,5 @@
+                https://www.codechef.com/practice/course/two-pointers/POINTERF/problems/PREP69?tab=statement
+            
 Remove Duplicates
 
 You are given an array A1,A2,…,ANA1​,A2​,…,AN​ of length NN sorted in non-decreasing order. Your task is to remove all the duplicates and find the sorted increasing array of distinct elements consisting of all distinct elements present in AA.
@@ -26,19 +28,32 @@ Input
 
 
 3
+
 2
+
 5 10
+
 4
+
 1 5 5 10
+
 5
+
 4 4 6 6 8
 
+
 Output
+
 2
+
 5 10 
+
 3
-1 5 10 
+
+1 5 10
+
 3
+
 4 6 8 
 
 Explanation:
