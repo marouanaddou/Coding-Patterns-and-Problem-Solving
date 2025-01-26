@@ -24,37 +24,15 @@ Constraints
     The sum of NN over all test cases won't exceed 2⋅1052⋅105.
 
 Sample 1:
-Input
 
-
-3
-
-2
-
-5 10
-
-4
-
-1 5 5 10
-
-5
-
-4 4 6 6 8
-
-
-Output
-
-2
-
-5 10 
-
-3
-
-1 5 10
-
-3
-
-4 6 8 
+    Input :                                Output :
+    3                                      2
+    2                                      5 10
+    5 10                                   3
+    4                                      1 5 10
+    1 5 5 10                               3
+    5                                      4 6 8
+    4 4 6 6 8
 
 Explanation:
 
