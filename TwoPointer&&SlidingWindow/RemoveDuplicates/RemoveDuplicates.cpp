@@ -9,14 +9,14 @@ using namespace std;
     // first approache
         // int main() {
         // 	// your code goes here
-        //     int t , size, item;
+        //     int t , size, element;
         //     cin >> t;
         //     for ( int i = 0; i < t; i++ ) {
         //         set<int> num;
         //         cin >> size;
         //         for ( int j = 0; j < size; j++ ) {
-        //             cin >> item;
-        //             num.insert(item);
+        //             cin >> element;
+        //             num.insert(element);
         //         }
         //         std::cout << num.size() << std::endl;
         //         for ( set<int>::iterator it = num.begin(); it != num.end(); it++ ) {
@@ -61,14 +61,14 @@ using namespace std;
             }
     
     int main() {
-        int t , item;
+        int t , element;
         cin >> t;
         while ( t-- ) {
-            cin >> item;
-            std::vector<int> array(item);
-            for ( int i = 0; i < item; i++ ) {
+            cin >> element;
+            std::vector<int> array(element);
+            for ( int i = 0; i < element; i++ ) {
                 cin >> array[i];
             }
-            remove_duplicate( array, item );
+            remove_duplicate( array, element );
         }
     }
