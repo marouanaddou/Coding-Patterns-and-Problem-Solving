@@ -3,7 +3,7 @@ Difference Pairs
 
 Given an array AA of NN integers and an integer BB.
 
-Find whether there exists a pair of indices (i,j)(i,j) (1≤i<j≤N)(1≤i<j≤N) such that abs(Ai−Aj)=Babs(Ai​−Aj​)=B.
+Find whether there exists a pair of indices (i,j)(1≤i<j≤N) such that abs(Ai−Aj)=B.
 Input Format
 
     The first line of input will contain a single integer TT, denoting the number of test cases.
@@ -23,6 +23,7 @@ Constraints
     The sum of NN over all test cases won't exceed 2⋅1052⋅105.
 
 Sample 1:
+
     input :                                             output :
     3                                                   1                                        
     6 78                                                1
